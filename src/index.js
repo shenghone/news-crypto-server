@@ -15,7 +15,7 @@ app.use(function (req, res, next) {
   );
   next();
 });
-app.use("/", async (req, res) => {
+app.get("/", async (req, res) => {
   res.send("<h4>welcome</h4>");
 });
 app.use("/crypto", cryptoRoute);
