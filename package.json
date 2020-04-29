@@ -1,0 +1,26 @@
+{
+  "name": "crypto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon -r esm ./"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "dayjs": "^1.8.19",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "google-trends-api": "^4.9.0",
+    "link-preview-js": "^2.0.1",
+    "lodash": "^4.17.15",
+    "newsapi": "^2.4.0"
+  },
+  "devDependencies": {
+    "esm": "^3.2.25"
+  }
+}
