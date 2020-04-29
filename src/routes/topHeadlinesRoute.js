@@ -84,8 +84,6 @@ router.get("/", async (req, res) => {
         });
       }
     }, []);
-
-    //newsapi.org/v2/top-headlines?country=us&apiKey=c593132c2e4c43799c7767555ad39b31
   } catch (err) {
     console.error(err);
   }
