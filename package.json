@@ -13,6 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "axios": "^0.19.2",
+    "cors": "^2.8.5",
     "dayjs": "^1.8.19",
     "dotenv": "^8.2.0",
     "esm": "^3.2.25",
@@ -21,6 +22,5 @@
     "link-preview-js": "^2.0.1",
     "lodash": "^4.17.15",
     "newsapi": "^2.4.0"
-  },
-  "devDependencies": {}
+  }
 }

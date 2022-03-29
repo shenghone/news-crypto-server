@@ -13,7 +13,7 @@ router.get("/:period", async ({ params: { period }, query, ...rest }, res) => {
   let topFiveCrypto;
   let error = null;
   let tickers = [];
-
+  console.log("oh yea")
   try {
     const { status: coinStatus, data: coins } = await axios.get(
       COINPAPRIKA_URL + "coins"
