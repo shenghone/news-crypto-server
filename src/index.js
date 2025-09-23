@@ -1,6 +1,6 @@
 import express from "express";
-import cryptoRoute from "./routes/cryptoRoute";
-import topHeadlinesRoute from "./routes/topHeadlinesRoute";
+import cryptoRoute from "./routes/cryptoRoute.js";
+import topHeadlinesRoute from "./routes/topHeadlinesRoute.js";
 import cors from "cors";
 import { config } from "dotenv";
 config();
